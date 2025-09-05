@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Truck Assassino</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Food Truck Assassino</h1>
+            <p class="subtitle">Sobreviva à refeição mais perigosa da sua vida!</p>
+        </header>
+        
+        <main>
+            <div id="story-text">
+                <p>Você está andando pela cidade quando avista um food truck misterioso com uma placa piscante: "Comida que vale a pena morrer por!". Você decide se aproximar...</p>
+            </div>
+            
+            <div id="choices">
+                <button class="choice-btn" onclick="makeChoice(1)">Pedir o hambúrguer do dia</button>
+                <button class="choice-btn" onclick="makeChoice(2)">Pedir apenas uma bebida</button>
+                <button class="choice-btn" onclick="makeChoice(3)">Ir embora, isso parece suspeito</button>
+            </div>
+            
+            <div id="image-container">
+                <img id="story-image" src="https://placehold.co/600x400/222/fff?text=Food+Truck+Misterioso" alt="Cena do jogo">
+            </div>
+        </main>
+        
+        <footer>
+            <p>Jogo desenvolvido com HTML, CSS e JavaScript</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
